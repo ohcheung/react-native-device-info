@@ -924,3 +924,5 @@ public class RNDeviceModule extends ReactContextBaseJavaModule {
             .emit(eventName, data);
   }
 }
+
+
