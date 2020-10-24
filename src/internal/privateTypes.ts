@@ -92,8 +92,6 @@ interface ExposedNativeMethods {
   getMacAddressSync: () => string;
   getMaxMemory: () => Promise<number>;
   getMaxMemorySync: () => number;
-  getPhoneNumber: () => Promise<string>;
-  getPhoneNumberSync: () => string;
   getPreviewSdkInt: () => Promise<number>;
   getPreviewSdkIntSync: () => number;
   getProduct: () => Promise<string>;
